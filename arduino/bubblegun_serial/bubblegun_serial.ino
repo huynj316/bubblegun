@@ -2,6 +2,10 @@
 char inByte;         // incoming serial byte
 int bytesReceived[3];
 int count;
+
+//activate motor
+//int motorVal = inByte[0];
+//analogWrite(motorPin, motorVal);
  
 void setup() {
   // start serial port at 115200 bps:
